@@ -13,7 +13,7 @@ You can choose to install as a Git submodule. Or you can download as a zip archi
 These instructions will create a git submodule under the __.themes/budget-bumbago__ directory. From your blog directory, run these commands.
 
 ``` sh
-git submodule add git://github.com/octopress-themes/budget-bumbago.git .themes/budget-bumbago
+git submodule add git://github.com/octothemes/budget-bumbago.git .themes/budget-bumbago
 ```
 
 You should then commit the changes.
@@ -69,13 +69,13 @@ Remove the theme entry from the __.gitmodules__ file. The entry should look like
 ```
 [submodule ".themes/budget-bumbago"]
   path = .themes/budget-bumbago
-  url = https://github.com/octopress-themes/budget-bumbago.git
+  url = https://github.com/octothemes/budget-bumbago.git
 ```
 
 Remove the theme from the __.git/config__ file. The entry should look like this:
 ```
 [submodule ".themes/budget-bumbago"]
-  url = https://github.com/octopress-themes/budget-bumbago.git
+  url = https://github.com/octothemes/budget-bumbago.git
 ```
 
 Remove the theme files with Git.
